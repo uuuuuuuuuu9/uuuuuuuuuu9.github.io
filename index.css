@@ -1,0 +1,21 @@
+.both-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .column-1-top-main {
+  margin-top: 0px;
+} */
+
+.column-1-top {
+  margin-top: 58px;
+}
+
+.column-1-bottom {
+  margin-top: 480px;
+}
+
+.img-main {
+  padding: 1010px;
+  width: 720px;
+}
