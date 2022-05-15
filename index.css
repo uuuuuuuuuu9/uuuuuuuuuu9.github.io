@@ -1,21 +1,35 @@
-.both-column {
-  display: flex;
-  justify-content: space-between;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-/* .column-1-top-main {
-  margin-top: 0px;
-} */
+.both-container {
+  display: flex;
+}
 
-.column-1-top {
+.container-left-top {
   margin-top: 58px;
 }
 
-.column-1-bottom {
+.container-left-bottom {
   margin-top: 480px;
 }
 
 .img-main {
   padding: 1010px;
   width: 720px;
+}
+
+.container-left {
+  position: static;
+}
+
+.container-right {
+  flex-grow: 1;
+  flex: 185px 0 0;
+  position: absolute;
+  /* top: 40px;
+  left: 250px; */
+  left: 32%;
+  top: 0
 }
